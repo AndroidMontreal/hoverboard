@@ -44,12 +44,12 @@
       }
     </style>
 
-    <!-- <app-route
+    <app-route
       route="{{route}}"
       pattern="/:day"
       data="{{routeData}}"
       query-params="{{queryParams}}"
-    ></app-route> -->
+    ></app-route>
 
     <firebase-document
       id="userSessions"
@@ -68,19 +68,14 @@
     <div class="container" phone$="{{app.isPhoneSize}}">
 
 
-    <comming-soon
-      text="We are sorry this page will be updated soon !"
-      description="Subscribe to our news letter to get the notification when the schedule will be available !"
-    ></comming-soon>
-
-      <!-- <schedule-subnav
+       <schedule-subnav
         app="{{app}}"
         schedule="[[schedule]]"
         selected-day="[[app.selectedDay]]"
         filters="{{filters}}"
-      ></schedule-subnav> -->
+      ></schedule-subnav>
 
-      <!-- <neon-animated-pages selected="[[app.selectedDay]]" attr-for-selected="name">
+       <neon-animated-pages selected="[[app.selectedDay]]" attr-for-selected="name">
         <template is="dom-repeat" items="[[schedule]]" as="day" on-dom-change="updateCascadedNodes">
           <schedule-day
             name$="day[[_addToValue(index, 1)]]"
@@ -106,7 +101,7 @@
       entry-animation="scale-up-animation"
       exit-animation="fade-out-animation"
       with-backdrop
-    ></session-details> -->
+    ></session-details>
 
   </template>
 
