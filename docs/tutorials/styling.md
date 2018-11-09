@@ -41,7 +41,7 @@ in `heroSettings` object:
   "home": {
     "description": "Be a hero. Be a GDG!",
     "background": {
-      "color": "#673ab7",
+      "color": "#77BE33",
       "image": "/images/backgrounds/home.jpg"
     },
     "fontColor": "#FFF"
