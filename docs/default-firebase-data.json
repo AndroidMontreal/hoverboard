@@ -16,80 +16,253 @@
   "partners" : [ {
     "logos" : [ {
       "order" : 0,
-      "logoUrl" : "../images/logos/gdg-lviv.svg",
-      "name" : "GDG Montreal Android",
-      "url" : "https://plus.google.com/102444623953913144164"
+      "logoUrl" : "../images/logos/transit.svg",
+      "name" : "Transit",
+      "url" : "https://transit.app"
     } ],
     "order" : 0,
-    "title" : "Template Creator"
+    "title" : "Gold"
   }, {
     "logos" : [ {
-      "order" : 0,
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    }, {
       "order" : 1,
-      "logoUrl" : "../images/logos/gdg-x.svg",
-      "name" : "GDG[x]",
-      "url" : "https://github.com/gdg-x"
+      "logoUrl" : "../images/logos/shopify.svg",
+      "name" : "Shopify",
+      "url" : "https://shopify.com"
     }, {
       "order" : 2,
       "logoUrl" : "../images/logos/google.svg",
       "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
+      "url" : "https://www.google.com"
     }, {
       "order" : 3,
-      "logoUrl" : "../images/logos/gdg-x.svg",
-      "name" : "GDG[x]",
-      "url" : "https://github.com/gdg-x"
+      "logoUrl" : "../images/logos/desjardins.svg",
+      "name" : "Desjardins",
+      "url" : "https://desjardins.com"
     }, {
       "order" : 4,
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    }, {
-      "order" : 5,
-      "logoUrl" : "../images/logos/gdg-x.svg",
-      "name" : "GDG[x]",
-      "url" : "https://github.com/gdg-x"
-    }, {
-      "order" : 6,
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    }, {
-      "order" : 7,
-      "logoUrl" : "../images/logos/gdg-x.svg",
-      "name" : "GDG[x]",
-      "url" : "https://github.com/gdg-x"
-    }, {
-      "order" : 8,
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    }, {
-      "order" : 9,
-      "logoUrl" : "../images/logos/gdg-x.svg",
-      "name" : "GDG[x]",
-      "url" : "https://github.com/gdg-x"
-    }, {
-      "order" : 10,
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
+      "logoUrl" : "../images/logos/gdg-lviv.svg",
+      "name" : "GDG Lviv",
+      "url" : "https://plus.google.com/102444623953913144164"
     } ],
     "order" : 1,
-    "title" : "General Partner"
+    "title" : "Partners"
   } ],
   "schedule" : {
-
+    "2018-11-24" : {
+      "dateReadable" : "November 24th",
+      "timeslots" : [ {
+        "endTime" : "10:00",
+        "sessions" : [ {
+          "items" : [ 101 ]
+        } ],
+        "startTime" : "09:00"
+      }, {
+        "endTime" : "11:15",
+        "sessions" : [ {
+          "items" : [ 103 ]
+        } ],
+        "startTime" : "10:15"
+      }, {
+        "endTime" : "13:00",
+        "sessions" : [ {
+          "items" : [ 301 ]
+        } ],
+        "startTime" : "11:30"
+      }, {
+        "endTime" : "14:00",
+        "sessions" : [ {
+          "items" : [ 102 ]
+        } ],
+        "startTime" : "13:00"
+      } ],
+      "tracks" : [ {
+        "title" : "Main"
+      } ]
+    },
+    "2018-11-25" : {
+      "dateReadable" : "November 25th",
+      "timeslots" : [ {
+        "endTime" : "12:00",
+        "sessions" : [ {
+          "items" : [ 201 ]
+        } ],
+        "startTime" : "09:00"
+      }, {
+        "endTime" : "13:00",
+        "sessions" : [ {
+          "items" : [ 302 ]
+        } ],
+        "startTime" : "12:00"
+      }, {
+        "endTime" : "13:00",
+        "sessions" : [ {
+          "items" : [ 202 ]
+        } ],
+        "startTime" : "16:00"
+      } ],
+      "tracks" : [ {
+        "title" : "Workshops"
+      } ]
+    }
   },
   "sessions" : {
-
+    "101" : {
+      "complexity" : "",
+      "description" : "<p>Danger Will Robinson! Voice UI’s are everywhere, but the experience of using them ranges from mediocre to downright scary. Learn the history of VUI plus actionable advice to improve the user experience, enjoyment, and engagement of VUI based apps.</p>",
+      "language" : "English",
+      "presentation" : "",
+      "speakers" : [ "bryce_howitson" ],
+      "tags" : [ "VUI" ],
+      "title" : "Teaching robots to speak human - Improving the experience of Voice UIs"
+    },
+    "102" : {
+      "complexity" : "",
+      "description" : "<p>The UI on Android is completely reactive and so should be your code. With the increasing complexity of animations, interaction and user experience, new challenges arise when writing code. While we may have great solutions for Core and Architecture, little is talked on how to make your UI code more responsive and easier to maintain.</p><p>In this talk, we will go see the challenge of communicating between distinct parts of the apps and how can we fix that by using LiveData.</p><p>We will look at how Transformations can help us create a reactive representation of our UI models and make the communication between different custom views simpler and less coupled.</p>",
+      "language" : "English",
+      "presentation" : "",
+      "speakers" : [ "marcos_damasceno" ],
+      "tags" : [ "Android" ],
+      "title" : "LiveData beyond View Models"
+    },
+    "103" : {
+      "complexity" : "",
+      "description" : "<p></p>",
+      "language" : "English",
+      "presentation" : "",
+      "speakers" : [ "simon_guerout" ],
+      "tags" : [ "Android" ],
+      "title" : "Clean architecture, Dagger and Modules"
+    },
+    "201" : {
+      "complexity" : "",
+      "description" : "<p>In this workshop, you will build a robot from scratch and control it with Android Things and your phone.</p>",
+      "language" : "English",
+      "presentation" : "",
+      "speakers" : [ "etienne_caron" ],
+      "tags" : [ "IoT", "Android Things" ],
+      "title" : "Building a robot with Android Things"
+    },
+    "202" : {
+      "complexity" : "",
+      "description" : "<p>In this follow up workshop, you will add an AR component to your robot to control it through augmented reality.</p>",
+      "language" : "English",
+      "presentation" : "",
+      "speakers" : [ "etienne_caron" ],
+      "tags" : [ "IoT", "AR" ],
+      "title" : "Controlling a robot through AR"
+    },
+    "301" : {
+      "complexity" : "",
+      "description" : "",
+      "language" : "",
+      "presentation" : "",
+      "speakers" : [ ],
+      "tags" : [ ],
+      "title" : "Lunch"
+    },
+    "302" : {
+      "complexity" : "",
+      "description" : "",
+      "language" : "",
+      "presentation" : "",
+      "speakers" : [ ],
+      "tags" : [ ],
+      "title" : "Lunch"
+    }
   },
   "speakers" : {
-
+    "bryce_howitson" : {
+      "bio" : "Bryce is obsessed with creating products that people want to use. He helps organizations of all sizes prototype, and test their ideas. Bryce is a professional product designer, a certified Design Sprint Master, a pixel wrangler, a hobby carpenter, and self-proclaimed technology geek. He writes and speaks about hacking empathy to create better digital experiences from his homeland in the great frozen north of Minnesota. Bryce is a Google Developer Expert and can occasionally describe what that means. Ask him about Project M or his most epic Boundary Waters trip!",
+      "company" : "Curious",
+      "companyLogo" : "/images/logos/curious.svg",
+      "companyLogoUrl" : "http://discovercurious.com/img/curious_logo.svg",
+      "country" : "Greater Minneapolis-St. Paul Area, USA",
+      "featured" : true,
+      "name" : "Bryce Howitson",
+      "photo" : "/images/people/bryce.jpg",
+      "photoUrl" : "/images/people/bryce.jpg",
+      "shortBio" : "Bryce is obsessed with creating products that people want to use. He helps organizations of all sizes prototype...",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/howitson",
+        "name" : "Twitter"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/brycehowitson",
+        "name" : "LinkedIn"
+      } ],
+      "order" : 2,
+      "title" : "Digital Product Design & Experience Consultant"
+    },
+    "etienne_caron" : {
+      "bio" : "<p>Etienne Caron is a developer lead at Shopify, a popular Canadian e-commerce company. He is also part of Google’s Developer Expert program, and an instructor for Caster.io</p><p>Etienne has been an active member of the Android developer community in Montreal since 2010, and regularly devotes his time to mentoring startups, developers and students in the mobile space.</p><p>3D animation, procedural content generation and VR are some of his hobbies, and he loves introducing other developers to this fascinating field.</p>",
+      "company" : "Shopify",
+      "companyLogo" : "/images/logos/sophify.svg",
+      "companyLogoUrl" : "https://d26a57ydsghvgx.cloudfront.net/product/images/customers/shopify_logo.svg",
+      "country" : "Montreal, Canada",
+      "featured" : true,
+      "name" : "Étienne Caron",
+      "photo" : "/images/people/etienne.jpg",
+      "photoUrl" : "/images/people/etienne.jpg",
+      "shortBio" : "Developer lead at Shopify and part of Google’s Developer Expert program...",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/kanawish  ",
+        "name" : "Twitter"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/etcaron/",
+        "name" : "LinkedIn"
+      } ],
+      "order" : 1,
+      "title" : "Developer Lead"
+    },
+    "marcos_damasceno" : {
+      "bio" : "<p>Marcos is a passionate developer from Brazil who has been working with Android since 2010. He loves simple and beautiful UX and UI and is always focused on important small details and what makes mobile apps great. He is passionate about startups and tries his best to help early stage startups build great Android apps and awesome products.</p><p>Marcos is actively involved in the community, organizing the GDG in Montreal, speaking at many conferences around the world and being a mentor in events like Startup Weekends and various hackathons.</p><p>Since moving to Montreal in 2013, Marcos has developed great apps for large companies and startups in Canada working for Mirego. One of those apps reached the global market with more than 500k downloads.</p>",
+      "company" : "Tinder",
+      "companyLogo" : "/images/logos/tinder.svg",
+      "companyLogoUrl" : "https://upload.wikimedia.org/wikipedia/commons/8/8a/Logo-Tinder.svg",
+      "country" : "Los Angeles, USA",
+      "featured" : true,
+      "name" : "Marcos Paulo Souza Damasceno",
+      "photo" : "/images/people/marcos.jpg",
+      "photoUrl" : "/images/people/marcos.jpg",
+      "shortBio" : "He loves simple and beautiful UX and UI and is always focused on important small details...",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/marcospaulosd",
+        "name" : "Twitter"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/marcosdamasceno",
+        "name" : "LinkedIn"
+      } ],
+      "order" : 3,
+      "title" : "Senior Android Developer"
+    },
+    "simon_guerout" : {
+      "bio" : "<p>Développeur Android depuis près de 10 ans, Simon connait de nombreux aspects de notre OS mobile favori : applications, système, périphériques, infrastructure, outils de développement, ...</p><p>Son parcours professionnel l'a emmené du monde de la télévision numérique à l'évenementiel, en passant par les télécoms et l'IoT.</p><p>Depuis peu chez Eventbrite, il intervient sur les projets de R&D qui améliorent la vie des organisateurs sur le site de leurs évènements.</p><p>With almost 10 years of Android experience, Simon knows many aspects of our favorite mobile OS: applications, system, peripherals, infrastructure, dev tools, ...</p><p>His career gave him the opportunity to work on subjects suchs digital TV, telecommunications, IoT and event management.</p><p>He recently joined Eventbrite, where he develops on-site solutions for event organizer.</p>",
+      "company" : "Eventbrite",
+      "companyLogo" : "/images/logos/eventbrite.svg",
+      "companyLogoUrl" : "http://devfest2018.android-montreal.com/images/logos/eventbrite.svg",
+      "country" : "Montreal, Canada",
+      "featured" : true,
+      "name" : "Simon Guerout",
+      "photo" : "/images/people/simon.jpg",
+      "photoUrl" : "/images/people/simon.jpg",
+      "shortBio" : "Développeur Android depuis près de 10 ans, Simon connait de nombreux aspects de notre OS mobile favori...",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/saiimons",
+        "name" : "Twitter"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/sguerout",
+        "name" : "LinkedIn"
+      } ],
+      "order" : 4,
+      "title" : "Android Developer"
+    }
   },
   "team" : [],
   "tickets" : [ {

@@ -1,14 +1,14 @@
 {
   "basepath": "/",
-  "url": "https://devfest-montreal-dev.firebaseapp.com/",
+  "url": "http://devfest2018.ansdroid-montreal.com/",
   "analytics": "UA-43643469-9",
   "prefix": "/",
   "firebase": {
-    "apiKey": "AIzaSyCzW11A9TOjvEYSa3eQcehslUo4ra2q5X4",
-    "authDomain": "devfest-montreal-dev.firebaseapp.com",
-    "databaseURL": "https://devfest-montreal-dev.firebaseio.com",
-    "projectId": "devfest-montreal-dev",
-    "storageBucket": "devfest-montreal-dev.appspot.com",
+    "apiKey": "AIzaSyCKtyig9z7oqvqF2xx9Lkcg1W143gWldc8",
+    "authDomain": "devfest-montreal.firebaseapp.com",
+    "databaseURL": "https://devfest-montreal.firebaseio.com",
+    "projectId": "devfest-montreal",
+    "storageBucket": "devfest-montreal.appspot.com",
     "messagingSenderId": "516409946568"
   },
   "googleMapApiKey": "AIzaSyDWy6O98n-ueoVaYPWRPve23vjm3JP08gw"

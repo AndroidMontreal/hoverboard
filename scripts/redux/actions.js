@@ -97,33 +97,6 @@ const toastActions = {
   },
 };
 
-const ticketsActions = {
-  fetchTickets: () => (dispatch) => {
-    dispatch({
-      type: FETCH_TICKETS,
-    });
-
-    return firebase.firestore().collection('tickets')
-      .orderBy('order', 'asc')
-      .get()
-      .then((snaps) => {
-        const list = snaps.docs
-          .map((snap) => Object.assign({}, snap.data(), { id: snap.id }));
-
-        dispatch({
-          type: FETCH_TICKETS_SUCCESS,
-          payload: { list },
-        });
-      })
-      .catch((error) => {
-        dispatch({
-          type: FETCH_TICKETS_FAILURE,
-          payload: { error },
-        });
-      });
-  },
-};
-
 const _getPartnerItems = (groupId) => firebase.firestore()
   .collection('partners').doc(groupId).collection('items').orderBy('order', 'asc')
   .get()
