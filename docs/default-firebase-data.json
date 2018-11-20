@@ -51,6 +51,12 @@
     "2018-11-24" : {
       "dateReadable" : "November 24th",
       "timeslots" : [ {
+        "endTime" : "09:00",
+        "sessions" : [ {
+          "items" : [ 303 ]
+        } ],
+        "startTime" : "08:00"
+      }, {
         "endTime" : "10:00",
         "sessions" : [ {
           "items" : [ 101 ]
@@ -71,9 +77,15 @@
       }, {
         "endTime" : "14:00",
         "sessions" : [ {
-          "items" : [ 102 ]
+          "items" : [ 104 ]
         } ],
         "startTime" : "13:00"
+      }, {
+        "endTime" : "15:15",
+        "sessions" : [ {
+          "items" : [ 102 ]
+        } ],
+        "startTime" : "14:15"
       } ],
       "tracks" : [ {
         "title" : "Main"
@@ -82,9 +94,17 @@
     "2018-11-25" : {
       "dateReadable" : "November 25th",
       "timeslots" : [ {
+        "endTime" : "09:00",
+        "sessions" : [ {
+          "items" : [ 304 ]
+        } ],
+        "startTime" : "08:00"
+      }, {
         "endTime" : "12:00",
         "sessions" : [ {
           "items" : [ 201 ]
+        }, {
+          "items" : [ 401 ]
         } ],
         "startTime" : "09:00"
       }, {
@@ -94,14 +114,18 @@
         } ],
         "startTime" : "12:00"
       }, {
-        "endTime" : "13:00",
+        "endTime" : "16:00",
         "sessions" : [ {
           "items" : [ 202 ]
+        }, {
+          "items" : [ 402 ]
         } ],
-        "startTime" : "16:00"
+        "startTime" : "13:00"
       } ],
       "tracks" : [ {
         "title" : "Workshops"
+      }, {
+        "title" : "CodeLabs"
       } ]
     }
   },
@@ -132,6 +156,15 @@
       "speakers" : [ "simon_guerout" ],
       "tags" : [ "Android" ],
       "title" : "Clean architecture, Dagger and Modules"
+    },
+    "104" : {
+      "complexity" : "",
+      "description" : "<p>The biggest new things in Android announced at Google I/O 2018 and since.</p>",
+      "language" : "English",
+      "presentation" : "",
+      "speakers" : [ "laurence_de_villers" ],
+      "tags" : [ "Android" ],
+      "title" : "What's new in Android"
     },
     "201" : {
       "complexity" : "",
@@ -168,6 +201,42 @@
       "speakers" : [ ],
       "tags" : [ ],
       "title" : "Lunch"
+    },
+    "303" : {
+      "complexity" : "",
+      "description" : "",
+      "language" : "",
+      "presentation" : "",
+      "speakers" : [ ],
+      "tags" : [ ],
+      "title" : "Breakfast"
+    },
+    "304" : {
+      "complexity" : "",
+      "description" : "",
+      "language" : "",
+      "presentation" : "",
+      "speakers" : [ ],
+      "tags" : [ ],
+      "title" : "Breakfast"
+    },
+    "401" : {
+      "complexity" : "",
+      "description" : "<p>Want to start your first app or learn something new? We'll have a room dedicated to CodeLabs with pros available to help you.</p>",
+      "language" : "English",
+      "presentation" : "",
+      "speakers" : [  ],
+      "tags" : [ "Android", "Flutter" ],
+      "title" : "CodeLabs with pros"
+    },
+    "402" : {
+      "complexity" : "",
+      "description" : "<p>Want to start your first app or learn something new? We'll have a room dedicated to CodeLabs with pros available to help you.</p>",
+      "language" : "English",
+      "presentation" : "",
+      "speakers" : [  ],
+      "tags" : [ "Android", "Flutter" ],
+      "title" : "CodeLabs with pros"
     }
   },
   "speakers" : {
@@ -261,6 +330,28 @@
         "name" : "LinkedIn"
       } ],
       "order" : 4,
+      "title" : "Android Developer"
+    }, "laurence_de_villers" : {
+      "bio" : "<p>Laurence is a mobile developer at Transit, she worked on a variety of mobile applications for different companies. She's leading the Google Developer Group Montreal Android and Women Techmakers in Montréal. She also arrange meetups to inspire women in computer sciences.</p>",
+      "company" : "Transit",
+      "companyLogo" : "/images/logos/transit.svg",
+      "companyLogoUrl" : "http://devfest2018.android-montreal.com/images/logos/transit.svg",
+      "country" : "Montreal, Canada",
+      "featured" : true,
+      "name" : "Laurence de Villers",
+      "photo" : "/images/people/laurence.jpg",
+      "photoUrl" : "/images/people/laurence.jpg",
+      "shortBio" : "Laurence is a mobile developer at Transit, she worked on a variety of mobile applications...",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/L_de_V",
+        "name" : "Twitter"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/ldevillers",
+        "name" : "LinkedIn"
+      } ],
+      "order" : 3,
       "title" : "Android Developer"
     }
   },
