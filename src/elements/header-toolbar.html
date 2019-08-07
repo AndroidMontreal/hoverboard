@@ -27,7 +27,6 @@
       }
 
       :host([transparent]) .toolbar-logo {
-        background-color: var(--hero-logo-color);
         opacity: var(--hero-logo-opacity, 1);
       }
 
@@ -42,9 +41,9 @@
         display: block;
         width: 150px;
         height: 32px;
-        background-color: var(--default-primary-color);
-        transition: background-color var(--animation);
-        -webkit-mask: url('/images/logo-monochrome.svg') no-repeat;
+        background: url(/images/logo-monochrome.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
       }
 
       .nav-items {
@@ -154,9 +153,14 @@
 
         <paper-tab class="signin-tab" on-tap="signIn" link hidden$="[[user.signedIn]]">{$ signIn $}</paper-tab>
 
-        <a href$="[[_getTicketUrl(tickets)]]" target="_blank" rel="noopener noreferrer" ga-on="click"
+        <!--<a href$="[[_getTicketUrl(tickets)]]" target="_blank" rel="noopener noreferrer" ga-on="click"
            ga-event-category="ticket button" ga-event-action="buy_click">
           <paper-button class="buy-button" primary>{$ buyTicket $}</paper-button>
+        </a>-->
+
+        <a href="https://www.papercall.io/montreal-devfest-2018" target="_blank" rel="noopener noreferrer" ga-on="click"
+           ga-event-category="cfp button" ga-event-action="call_for_paper_click">
+          <paper-button class="buy-button" primary>{$ callForPaper $}</paper-button>
         </a>
       </paper-tabs>
 

@@ -26,7 +26,7 @@ The top block (aka 'hero') view of the page can be adjusted via `heroSettings` i
   "home": {
     "description": "Be a hero. Be a GDG!",
     "background": {
-      "color": "#77BE33",
+      "color": "#FABB04",
       "image": "/images/backgrounds/home.jpg"
     },
     "fontColor": "#FFF"

@@ -1,10 +1,10 @@
 {
-  "title": "GDG DevFest Season 2018",
+  "title": "GDG DevFest Season 2019",
   "description": "Be a hero. Be a GDG!",
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "November 24-25, 2018",
-  "partnershipProposition": "http://android-montreal.com/wp-content/uploads/2017/10/GDG-Sponsorship-DevFest.pdf",
+  "dates": "September 28, 2019",
+  "partnershipProposition": "https://gdgmontreal.com/wp-content/uploads/2017/10/GDG-Sponsorship-DevFest.pdf",
   "share": "Share",
   "followOur": "Follow our",
   "followUs": "Follow us",
@@ -12,6 +12,7 @@
   "partnershipResources": "Partnership Resources",
   "eventResources": "Event Resources",
   "buyTicket": "Buy ticket",
+  "callForPaper": "Call for Papers",
   "signIn": "Sign in",
   "signOut": "Sign out",
   "viewHighlights": "View Highlights",
@@ -36,8 +37,8 @@
       "title": "About",
       "links": [
         {
-          "name": "GDG Montreal Android",
-          "url": "http://android-montreal.com/",
+          "name": "GDG Montreal",
+          "url": "https://gdgmontreal.com/",
           "newTab": true
         },
         {
@@ -54,6 +55,10 @@
           "name": "DevFest Montreal Android 2017",
           "url": "https://devfest2017-10ea7.firebaseapp.com/",
           "newTab": true
+        }, {
+          "name": "DevFest Montreal Android 2018",
+          "url": "https://devfest2018.gdgmontreal.com/",
+          "newTab": true
         }
       ]
     },
@@ -62,7 +67,7 @@
       "links": [
         {
           "name": "Partnership Proposition",
-          "url": "http://android-montreal.com/wp-content/uploads/2017/10/GDG-Sponsorship-DevFest.pdf",
+          "url": "https://gdgmontreal.com/wp-content/uploads/2017/10/GDG-Sponsorship-DevFest.pdf",
           "newTab": true
         },
         {
@@ -100,12 +105,12 @@
         "number": "100"
       },
       "days": {
-        "label": "Days",
-        "number": "2"
+        "label": "Day",
+        "number": "1"
       },
       "sessions": {
         "label": "Sessions",
-        "number": "6"
+        "number": "5"
       },
       "tracks": {
         "label": "Tracks",
@@ -205,7 +210,7 @@
     "toast": "Successfully subscribed!"
   },
   "team": {
-    "description": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Montreal Android](http://android-montreal/) - is open and volunteer geek community who create exciting projects and share experience about Android technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Montreal audience to boost development of IT."
+    "description": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Montreal](https://gdgmontreal/) - is open and volunteer geek community who create exciting projects and share experience about Android technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Montreal audience to boost development of IT."
   },
   "schedule": {
     "saveSessionsSignedOut": "Sign in to save sessions"
@@ -238,7 +243,7 @@
     "blocks": [
       {
         "title": "Organizer",
-        "description": "<a href='http://android-montreal.com' target='_blank'>GDG Montreal Android</a> is proud organizer of DevFest 2018",
+        "description": "<a href='https://gdgmontreal.com' target='_blank'>GDG Montreal</a> is proud organizer of DevFest 2019",
         "callToAction": {
           "label": "Open team page",
           "link": "/team"

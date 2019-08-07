@@ -1,21 +1,21 @@
 {
   "organizer": {
-    "name": "GDG Montreal Android",
-    "twitter": "androidmontreal",
-    "blog": "http://android-montreal.com",
-    "url": "http://android-montreal.com"
+    "name": "GDG Montreal",
+    "twitter": "gdgmontreal",
+    "blog": "https://gdgmontreal.com",
+    "url": "https://gdgmontreal.com"
   },
-  "startDate": "2017-10-24T09:00:00-05:00",
-  "endDate": "2017-10-25T19:00:00-05:00",
+  "startDate": "2019-09-28T09:00:00-05:00",
+  "endDate": "2019-09-28T19:00:00-05:00",
   "webapp": {
     "shortName": "DevFest",
-    "themeColor": "#77BE33",
-    "backgroundColor": "#77BE33"
+    "themeColor": "#FABB04",
+    "backgroundColor": "#FABB04"
   },
   "dateFormat": {
     "locale": "en-US"
   },
-  "hashtag": "DevFest18",
+  "hashtag": "DevFest19",
   "disabledSchedule": true,
   "navigation": [
     {
@@ -41,9 +41,9 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "Be a hero. Be a GDG!",
+      "description": "More details coming soon!",
       "background": {
-        "color": "#77BE33",
+        "color": "#FABB04",
         "image": "/images/backgrounds/home.jpg"
       },
       "fontColor": "#FFF"
@@ -143,7 +143,7 @@
     "follow": [
       {
         "name": "meetup",
-        "url": "https://www.meetup.com/GDG-Montreal-Android/events/254850545/"
+        "url": "https://www.meetup.com/GDG-Montreal"
       },
       {
         "name": "facebook",
@@ -151,7 +151,7 @@
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/@androidmontreal"
+        "url": "https://twitter.com/@gdgmontreal"
       },
       {
         "name": "youtube",
@@ -173,7 +173,7 @@
       }
     ]
   },
-  "mailto": "info@android-monreal.coms",
+  "mailto": "info@android-monreal.com",
   "mailchimp": {
     "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
     "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
