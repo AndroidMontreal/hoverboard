@@ -72,7 +72,7 @@
         },
         {
           "name": "Call for Papers",
-          "url": "https://www.papercall.io/montreal-devfest-2018",
+          "url": "https://www.papercall.io/gdgmontrealdevfest2019",
           "newTab": true
         },
         {
@@ -89,7 +89,7 @@
     "title": "What you need to know, before you ask.",
     "callToAction": {
       "featuredSessions": {
-        "description": "GDG Android Montreal DevFest brings together the world class experts in Android, IoT and AR technologies to Montreal for 2 days of sessions and workshops.",
+        "description": "GDG Android Montreal DevFest brings together the world class experts in Android, IoT and AR technologies to Montreal for a day of sessions and workshops.",
         "label": "Explore featured session",
         "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
       },

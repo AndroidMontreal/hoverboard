@@ -5,8 +5,8 @@
     "blog": "https://gdgmontreal.com",
     "url": "https://gdgmontreal.com"
   },
-  "startDate": "2019-09-28T09:00:00-05:00",
-  "endDate": "2019-09-28T19:00:00-05:00",
+  "startDate": "2019-09-29T09:00:00-05:00",
+  "endDate": "2019-09-29T19:00:00-05:00",
   "webapp": {
     "shortName": "DevFest",
     "themeColor": "#FABB04",
@@ -143,7 +143,7 @@
     "follow": [
       {
         "name": "meetup",
-        "url": "https://www.meetup.com/GDG-Montreal"
+        "url": "https://www.meetup.com/GDG-Montreal/events/263839326/"
       },
       {
         "name": "facebook",

@@ -6,7 +6,7 @@ GDG Montreal DevFest will take place on the 28th of September 2019 at [Shopify](
 
 ### Stay Informed
 
-To stay up to date on the latest information on sessions, speakers, and activities, be sure to visit the [DevFest website](https://gdgmontreal.com/), RSVP on [Meetup]( https://www.meetup.com/GDG-Montreal/events/254850545/) and follow us on [Facebook](https://www.facebook.com/AndroidMontreal) and [Twitter](https://twitter.com/@gdgmontreal). You can also follow and join the social conversation about GDG Montreal DevFest via official hashtags #Devfest19.
+To stay up to date on the latest information on sessions, speakers, and activities, be sure to visit the [DevFest website](https://gdgmontreal.com/), RSVP on [Meetup](https://www.meetup.com/GDG-Montreal/events/263839326/) and follow us on [Facebook](https://www.facebook.com/AndroidMontreal) and [Twitter](https://twitter.com/@gdgmontreal). You can also follow and join the social conversation about GDG Montreal DevFest via official hashtags #Devfest19.
 
 ### Content Formats
 
@@ -15,7 +15,7 @@ During two conference days attendees will be able to attend sessions and hands-o
   
 ## Registration
 
-The window to buy a ticket will be opened until 6PM on September 23rd 2019, or earlier if the tickets are sold out. To buy a ticket [follow the link]( https://www.eventbrite.ca/e/devfest-2018-tickets-50486474404), select required ticket type, fill in the required information and pay for it.
+The window to buy a ticket will be opened until 6PM on September 23rd 2019, or earlier if the tickets are sold out. To buy a ticket [follow the link](https://www.eventbrite.ca/e/devfest-2019-tickets-68397660243), select required ticket type, fill in the required information and pay for it.
 
 Once you've successfully payed for the ticket you’ll reach a confirmation screen and receive an email with the ticket. Please don’t forget to download it on your device or print it, as it’s required for entrance.
 

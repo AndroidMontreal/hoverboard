@@ -34,8 +34,8 @@
     "title" : "Partners"
   } ],
   "schedule" : {
-    "2019-09-28" : {
-      "dateReadable" : "September 28th",
+    "2019-09-29" : {
+      "dateReadable" : "September 29th",
       "timeslots" : [ {
         "endTime" : "09:00",
         "sessions" : [ {
@@ -164,7 +164,7 @@
     "price" : 10,
     "soldOut" : false,
     "starts" : "Aug. 1",
-    "url" : "https://www.eventbrite.ca/e/devfest-2018-tickets-50486474404"
+    "url" : "https://www.eventbrite.ca/e/devfest-2019-tickets-68397660243"
   }, {
     "available" : false,
     "currency" : "$",
@@ -176,7 +176,7 @@
     "regular" : true,
     "soldOut" : false,
     "starts" : "Aug. 1",
-    "url" : "https://www.eventbrite.ca/e/devfest-2018-tickets-50486474404"
+    "url" : "https://www.eventbrite.ca/e/devfest-2019-tickets-68397660243"
   } ],
   "triggers" : {
     "images" : false
