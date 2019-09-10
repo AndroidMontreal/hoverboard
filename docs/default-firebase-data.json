@@ -43,47 +43,47 @@
         } ],
         "startTime" : "08:00"
       }, {
-        "endTime" : "10:00",
+        "endTime" : "09:45",
         "sessions" : [ {
           "items" : [ 100 ]
         } ],
         "startTime" : "09:00"
       }, {
-        "endTime" : "11:15",
+        "endTime" : "11:00",
         "sessions" : [ {
-          "items" : [ 100 ]
+          "items" : [ 101 ]
         } ],
-        "startTime" : "10:15"
+        "startTime" : "10:00"
       }, {
         "endTime" : "13:00",
         "sessions" : [ {
           "items" : [ 301 ]
         } ],
-        "startTime" : "11:30"
+        "startTime" : "11:15"
       }, {
-        "endTime" : "14:00",
+        "endTime" : "15:00",
         "sessions" : [ {
-          "items" : [ 100 ]
+          "items" : [ 102 ]
         } ],
         "startTime" : "13:00"
       }, {
-        "endTime" : "15:15",
-        "sessions" : [ {
-          "items" : [ 100 ]
-        } ],
-        "startTime" : "14:15"
-      }, {
         "endTime" : "16:00",
         "sessions" : [ {
-          "items" : [ 302 ]
+          "items" : [ 103 ]
         } ],
         "startTime" : "15:15"
       }, {
         "endTime" : "16:45",
         "sessions" : [ {
-          "items" : [ 100 ]
+          "items" : [ 104 ]
         } ],
         "startTime" : "16:00"
+      } , {
+        "endTime" : "19:00",
+        "sessions" : [ {
+          "items" : [ 302 ]
+        } ],
+        "startTime" : "17:00"
       } ],
       "tracks" : [ {
         "title" : "Main"
@@ -92,13 +92,49 @@
   },
   "sessions" : {
     "100" : {
-      "complexity" : "",
+      "complexity" : "Intermediate",
+      "description" : "<p>This talk will describe what is new in Android Navigation Component, how easy it’s to navigate between fragment et the pros and cons of using the Navigation Component.</p>",
+      "language" : "English",
+      "presentation" : "",
+      "speakers" : [ "laurence_de_villers" ],
+      "tags" : [ "Android" ],
+      "title" : "Jetpack Android Navigation Component 2.0"
+    },
+    "101" : {
+      "complexity" : "Advanced",
+      "description" : "<p>Etienne has some amazing kotlin talks ready to go. We're sure to learn something new and interesting with practical examples.</p>",
+      "language" : "English",
+      "presentation" : "",
+      "speakers" : [ "etienne_caron" ],
+      "tags" : [ "Kotlin" ],
+      "title" : "Kotlin"
+    },
+    "102" : {
+      "complexity" : "Beginner",
+      "description" : "<p>Join us for the codelab that will certainly give you the right tools to start using Kotlin for your next project or migrate your existing one over.</p>",
+      "language" : "English",
+      "presentation" : "",
+      "speakers" : [  ],
+      "tags" : [ "CodeLab", "Kotlin" ],
+      "title" : "General Kotlin / Refactoring to Kotlin "
+    },
+    "103" : {
+      "complexity" : "Beginner",
       "description" : "<p>Check back to get more details soon.</p>",
       "language" : "English",
       "presentation" : "",
-      "speakers" : [ "coming_soon" ],
+      "speakers" : [ "boris_dubois" ],
       "tags" : [ "" ],
       "title" : "Coming soon"
+    },
+    "104" : {
+      "complexity" : "Advanced",
+      "description" : "<p>We are going to talk about the importance of rapid prototyping and how Flutter & Firebase make for a powerful rapid prototyping combo.</p>",
+      "language" : "English",
+      "presentation" : "Advanced",
+      "speakers" : [ "ahmed_youssef" ],
+      "tags" : [ "" ],
+      "title" : "Rapid prototyping with Flutter & Firebase"
     },
     "200" : {
       "complexity" : "",
@@ -134,24 +170,88 @@
       "presentation" : "",
       "speakers" : [ ],
       "tags" : [ ],
-      "title" : "Coffee Break"
+      "title" : "DevFest 5@7"
     }
   },
   "speakers" : {
-    "coming_soon" : {
-      "bio" : "Amazing speaking is coming soon to a talk at GDG Montreal DevFest 2019",
-      "company" : "",
-      "companyLogo" : "",
-      "companyLogoUrl" : "",
-      "country" : "",
+    "laurence_de_villers" : {
+      "bio" : "<p>Laurence is a mobile developer at Transit, she worked on a variety of mobile applications for different companies. She's leading the Google Developer Group Montreal Android and Women Techmakers in Montréal. She also arrange meetups to inspire women in computer sciences.</p>",
+      "company" : "Transit",
+      "companyLogo" : "/images/logos/transit.svg",
+      "companyLogoUrl" : "http://devfest2019.gdgmontreal.com/images/logos/transit.svg",
+      "country" : "Montreal, Canada",
       "featured" : true,
-      "name" : "Amazing speaker",
-      "photo" : "",
-      "photoUrl" : "",
-      "shortBio" : "",
-      "socials" : [ ],
+      "name" : "Laurence de Villers",
+      "photo" : "/images/people/laurence.jpg",
+      "photoUrl" : "/images/people/laurence.jpg",
+      "shortBio" : "Laurence is a mobile developer at Transit, she worked on a variety of mobile applications...",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/L_de_V",
+        "name" : "Twitter"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/ldevillers",
+        "name" : "LinkedIn"
+      } ],
+      "order" : 1,
+      "title" : "Android Developer"
+    }, "etienne_caron" : {
+      "bio" : "<p>Etienne Caron is a developer lead at Shopify, a popular Canadian e-commerce company. He is also part of Google’s Developer Expert program, and an instructor for Caster.io</p><p>Etienne has been an active member of the Android developer community in Montreal since 2010, and regularly devotes his time to mentoring startups, developers and students in the mobile space.</p><p>3D animation, procedural content generation and VR are some of his hobbies, and he loves introducing other developers to this fascinating field.</p>",
+      "company" : "Shopify",
+      "companyLogo" : "/images/logos/sophify.svg",
+      "companyLogoUrl" : "https://d26a57ydsghvgx.cloudfront.net/product/images/customers/shopify_logo.svg",
+      "country" : "Montreal, Canada",
+      "featured" : true,
+      "name" : "Étienne Caron",
+      "photo" : "/images/people/etienne.jpg",
+      "photoUrl" : "/images/people/etienne.jpg",
+      "shortBio" : "Developer lead at Shopify and part of Google’s Developer Expert program...",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/kanawish",
+        "name" : "Twitter"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/etcaron/",
+        "name" : "LinkedIn"
+      } ],
       "order" : 2,
-      "title" : "The best of the best"
+      "title" : "Developer Lead"
+    },
+    "boris_dubois" : {
+      "bio" : "<p>Boris worked on LaPresse+ and is currently working on Transit app, both as an Android developer. He is co-organizing the GDG Montreal meetups that occur each months</p><p>Side note : virtual reality enthusiast</p>",
+      "company" : "Transit",
+      "companyLogo" : "/images/logos/transit.svg",
+      "companyLogoUrl" : "http://devfest2019.gdgmontreal.com/images/logos/transit.svg",
+      "country" : "Montreal, Canada",
+      "featured" : true,
+      "name" : "Boris Dubois",
+      "photo" : "/images/people/boris.jpg",
+      "photoUrl" : "/images/people/boris.jpg",
+      "shortBio" : "Boris worked on LaPresse+ and is currently working on Transit app, both as...",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/borisdubois",
+        "name" : "LinkedIn"
+      } ],
+      "order" : 3,
+      "title" : "Android Developer"
+    },
+    "ahmed_youssef" : {
+      "bio" : "<p>Mobile developer with a strong understanding of the agile development process. Worked with several multi-national clients. Quickly adaptable to new frameworks and languages. Budget/timing conscious and focused on finding the best way to solve challenges.</p>",
+      "company" : "Shopify",
+      "companyLogo" : "/images/logos/sophify.svg",
+      "companyLogoUrl" : "https://d26a57ydsghvgx.cloudfront.net/product/images/customers/shopify_logo.svg",
+      "country" : "Montreal, Canada",
+      "featured" : true,
+      "name" : "Ahmed Youssef",
+      "photo" : "/images/people/ahmed.jpg",
+      "photoUrl" : "/images/people/ahmed.jpg",
+      "shortBio" : "Mobile developer with a strong understanding of the agile development process...",
+      "socials" : [ ],
+      "order" : 4,
+      "title" : "Android Developer"
     }
   },
   "team" : [],

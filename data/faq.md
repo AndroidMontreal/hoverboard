@@ -2,7 +2,7 @@
 
 ### Dates and location
 
-GDG Montreal DevFest will take place on the 28th of September 2019 at [Shopify]( https://goo.gl/Zwi76g) in Montreal.
+GDG Montreal DevFest will take place on the 29th of September 2019 at [Shopify]( https://goo.gl/Zwi76g) in Montreal.
 
 ### Stay Informed
 
