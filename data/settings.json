@@ -1,21 +1,21 @@
 {
   "organizer": {
-    "name": "GDG Montreal Android",
-    "twitter": "androidmontreal",
-    "blog": "http://android-montreal.com",
-    "url": "http://android-montreal.com"
+    "name": "Women Techmakers Montreal | GDG Montreal",
+    "twitter": "WTM_Montreal",
+    "blog": "https://gdgmontreal.com",
+    "url": "https://gdgmontreal.com"
   },
   "startDate": "2017-10-24T09:00:00-05:00",
   "endDate": "2017-10-25T19:00:00-05:00",
   "webapp": {
-    "shortName": "DevFest",
-    "themeColor": "#77BE33",
-    "backgroundColor": "#77BE33"
+    "shortName": "Women Techmakers Montreal 2021",
+    "themeColor": "#4285f4",
+    "backgroundColor": "#4285f4"
   },
   "dateFormat": {
     "locale": "en-US"
   },
-  "hashtag": "DevFest18",
+  "hashtag": "WTMMontreal",
   "disabledSchedule": true,
   "navigation": [
     {
@@ -43,7 +43,7 @@
     "home": {
       "description": "Join the commuity, learn new things!",
       "background": {
-        "color": "#77BE33",
+        "color": "#455259",
         "image": "/images/backgrounds/home.jpg"
       },
       "fontColor": "#FFF"
@@ -52,76 +52,83 @@
       "title": "Blog",
       "metaDescription": "Read stories from our team",
       "background": {
-        "color": "#FFF"
+        "color": "#455259",
+        "image": "/images/backgrounds/home.jpg"
       },
-      "fontColor": "#424242"
+      "fontColor": "#fff"
     },
     "speakers": {
       "title": "Speakers",
       "metaDescription": "Hear from the Experts, Partners, and Guest Speakers who are building the future. Check back often as we add more speakers, including our customers and partners.",
       "description": "Hear from the Experts, Partners, and Guest Speakers who are building the future. Check back often as we add more speakers, including our customers and partners.",
       "background": {
-        "color": "#FFF"
+        "color": "#455259",
+        "image": "/images/backgrounds/home.jpg"
       },
-      "fontColor": "#424242"
+      "fontColor": "#fff"
     },
     "previousSpeakers": {
       "title": "Previous Speakers",
       "metaDescription": "Check who was with us last years",
       "background": {
-        "color": "#FFF"
+        "color": "#455259",
+        "image": "/images/backgrounds/home.jpg"
       },
-      "fontColor": "#424242"
+      "fontColor": "#fff"
     },
     "schedule": {
       "title": "Schedule",
       "metaDescription": "Choose your sessions to visit",
       "background": {
-        "color": "#fff"
+        "color": "#455259",
+        "image": "/images/backgrounds/home.jpg"
       },
-      "fontColor": "#424242"
+      "fontColor": "#fff"
     },
     "team": {
       "title": "Team",
       "metaDescription": "Get more info about organizers",
       "background": {
-        "color": "#fff"
+        "color": "#455259",
+        "image": "/images/backgrounds/home.jpg"
       },
-      "fontColor": "#424242"
+      "fontColor": "#fff"
     },
     "faq": {
       "title": "FAQs",
       "metaDescription": "Find you answer right here!",
       "background": {
-        "color": "#fff"
+        "color": "#455259",
+        "image": "/images/backgrounds/home.jpg"
       },
-      "fontColor": "#424242"
+      "fontColor": "#fff"
     },
     "coc": {
       "title": "Code of Conduct",
       "metaDescription": "Learn more about our expectations for all those who participate in our community",
       "background": {
-        "color": "#fff"
+        "color": "#455259",
+        "image": "/images/backgrounds/home.jpg"
       },
-      "fontColor": "#424242"
+      "fontColor": "#fff"
     }
   },
   "location": {
     "label": "Location",
-    "name": "Shopify",
+    "name": "École de technologie supérieure",
     "city": "Montreal",
     "short": "Montreal, QC",
-    "address": "490 Rue de la Gauchetière O, Montréal, QC H2Z 0B2",
+    "address": "",
     "pointer": {
       "latitude": 45.5025651,
       "longitude": -73.5660676,
       "zoom": 11
     },
     "mapCenter": {
-      "latitude": 45.5525651,
-      "longitude": -73.6560676
+      "latitude": 45.495164,
+      "longitude": -73.562814
     },
-    "description": "For the third consecutive year, Shopify his hosting us in their gorgeous Montreal offices"
+    "description": ""
   },
   "mediaQueries": {
     "xs": {
@@ -143,19 +150,23 @@
     "follow": [
       {
         "name": "meetup",
-        "url": "https://www.meetup.com/GDG-Montreal-Android/events/254850545/"
+        "url": "https://www.meetup.com/GDG-Montreal/events/263839326/"
       },
       {
         "name": "facebook",
-        "url": "https://www.facebook.com/AndroidMontreal"
+        "url": "https://www.facebook.com/wtm.montreal"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/@androidmontreal"
+        "url": "https://twitter.com/WTM_Montreal"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/company/women-techmakers-montreal/"
       },
       {
         "name": "youtube",
-        "url": "https://www.youtube.com/channel/UCQJAjybgXIWFqILujHQ_8GQ"
+        "url": "https://www.youtube.com/c/WomenTechmakersMontr%C3%A9al"
       }
     ],
     "share": [
@@ -169,7 +180,7 @@
       }
     ]
   },
-  "mailto": "info@android-monreal.coms",
+  "mailto": "info@wtmmontreal.com",
   "mailchimp": {
     "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
     "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
@@ -205,5 +216,10 @@
       "itemsCount": 5
     }
   },
-  "showForkMeBlockForProjectIds": ["hoverboard-master", "hoverboard-dev"]
+  "showForkMeBlockForProjectIds": [
+    "hoverboard-master",
+    "hoverboard-dev"
+  ],
+  "eventbriteUrl": "https://www.eventbrite.ca/e/women-techmakers-montreal-iwd-2020-tickets-93708425423",
+  "cfpLink": "https://www.papercall.io/wtmmontreal2020"
 }

@@ -37,28 +37,43 @@
       "title": "About",
       "links": [
         {
-          "name": "GDG Montreal Android",
-          "url": "http://android-montreal.com/",
+          "name": "GDG Montreal",
+          "url": "https://gdgmontreal.com/",
           "newTab": true
         },
         {
-          "name": "GDG",
-          "url": "https://developers.google.com/groups/",
+          "name": "Women Techmakers",
+          "url": "https://www.womentechmakers.com/",
           "newTab": true
         },
         {
-          "name": "DevFest",
-          "url": "https://devfest.withgoogle.com/",
+          "name": "Google Developers Group",
+          "url": "https://developers.google.com/",
+          "newTab": true
+        },
+        {
+          "name": "Slack WomenInTechMTL",
+          "url": "https://witmgroup-slack.herokuapp.com/",
           "newTab": true
         }
       ]
     },
     {
-      "title": "Explore Past DevFests",
+      "title": "Explore Past Women Techmakers Montreal event",
       "links": [
         {
-          "name": "DevFest Montreal Android 2017",
-          "url": "https://devfest2017-10ea7.firebaseapp.com/",
+          "name": "Women Techmakers 2017",
+          "url": "https://ldev6.github.io/",
+          "newTab": true
+        },
+        {
+          "name": "Women Techmakers 2018",
+          "url": "https://wtmmontreal-2018.firebaseapp.com/",
+          "newTab": true
+        },
+        {
+          "name": "Women Techmakers 2019",
+          "url": "https://wtmmontreal-2019.firebaseapp.com/",
           "newTab": true
         }
       ]
