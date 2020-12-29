@@ -1653,151 +1653,128 @@
     {
       "members": [
         {
-          "name": "Oleh Zasadnyy",
-          "photo": "/images/people/oleh_zasadnyy.jpg",
-          "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/oleh_zasadnyy.jpg",
-          "socials": [
-            {
-              "icon": "facebook",
-              "link": "https://www.facebook.com/oleh.zasadnyy",
-              "name": "Facebook"
-            },
-            {
-              "icon": "twitter",
-              "link": "https://twitter.com/ozasadnyy",
-              "name": "Twitter"
-            },
-            {
-              "icon": "website",
-              "link": "http://o.zasadnyy.com/",
-              "name": "Blog"
-            }
-          ],
-          "order": 0,
-          "title": "Website and sponsors"
-        },
-        {
-          "name": "Sofiya Huts",
-          "photo": "/images/people/sofiya_huts.jpg",
-          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fsofiya_huts.jpg?alt=media&token=a911eafb-f709-4af7-b1cb-58a6604b70d1",
-          "socials": [
-            {
-              "icon": "facebook",
-              "link": "https://www.facebook.com/sophie.huts.7",
-              "name": "Facebook"
-            }
-          ],
-          "order": 1,
-          "title": "Social and media"
-        },
-        {
-          "name": "Vitaliy Zasadnyy",
-          "photo": "/images/people/vitaliy_zasadnyy.jpg",
-          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fvitaliy_zasadnyy.jpg?alt=media&token=930e05c8-ae43-4628-8d4c-3e8f5193cda3",
+          "name": "Laurence de Villers",
+          "photo": "/images/people/laurence.jpg",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/wtmmontreal2021.appspot.com/o/images%2Fpeople%2Flaurence.jpg?alt=media&token=39eb9841-40e4-4773-b17e-5710b227e846",
           "socials": [
             {
               "icon": "linkedin",
-              "link": "https://www.linkedin.com/in/zasadnyy",
-              "name": "Linkedin"
+              "link": "https://www.linkedin.com/in/ldevillers/",
+              "name": "LinkedIn"
             },
             {
               "icon": "twitter",
-              "link": "https://twitter.com/zasadnyy",
+              "link": "https://twitter.com/L_de_V",
               "name": "Twitter"
+            }
+          ],
+          "order": 0,
+          "title": "Projet lead"
+        },
+        {
+          "name": "Houda Kaddioui",
+          "photo": "/images/people/houda.jpg",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/wtmmontreal2021.appspot.com/o/images%2Fpeople%2Fhouda.jpg?alt=media&token=e2118b8a-1cbd-4587-8c56-e1a060cb841f",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/kaddioui-houda/",
+              "name": "LinkedIn"
             },
             {
-              "icon": "website",
-              "link": "http://v.zasadnyy.com/",
-              "name": "Blog"
+              "icon": "twitter",
+              "link": "https://twitter.com/sha3kouka",
+              "name": "Twitter"
+            }
+          ],
+          "order": 1,
+          "title": "Projet Lead, Sponsors relations, Communications"
+        },
+        {
+          "name": "Marie-Eve Bourassa",
+          "photo": "/images/people/marie-eve.jpg",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/wtmmontreal2021.appspot.com/o/images%2Fpeople%2Fmarie-eve.jpg?alt=media&token=af1bf6d3-97c4-482a-9e92-831236256748",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/marieevebourassa/",
+              "name": "LinkedIn"
             }
           ],
           "order": 2,
-          "title": "Speakers"
+          "title": "Website, Communications, Accessibility"
         },
         {
-          "name": "Marta Maxymiak",
-          "photo": "/images/people/marta_maxymiak.jpg",
-          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fmarta_maxymiak.jpg?alt=media&token=6532f039-7f86-4304-8558-dbfbb3ae8d68",
+          "name": "Nadia Tahiri, Ph.D",
+          "photo": "/images/people/nadia.jpg",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/wtmmontreal2021.appspot.com/o/images%2Fpeople%2Fnadia.jpg?alt=media&token=29f1396e-fea0-444c-bbfd-5565e9452f91",
           "socials": [
             {
               "icon": "facebook",
-              "link": "https://www.facebook.com/marta.maxymiak",
+              "link": "https://www.facebook.com/nadia.tahiri.0",
               "name": "Facebook"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/tahiri-nadia/",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/Nadia__Tahiri",
+              "name": "Twitter"
+            },
+            {
+              "icon": "gitHub",
+              "link": "https://github.com/TahiriNadia",
+              "name": "GitHub"
             }
           ],
           "order": 3,
-          "title": "Party and happiness"
+          "title": "Speakers relations, Communications"
         },
         {
-          "name": "Ostap Andrusiv",
-          "photo": "/images/people/ostap_andrusiv.jpg",
-          "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/ostap_andrusiv.jpg",
+          "name": "Marie-Philippe Gill",
+          "photo": "/images/people/marie-philippe.jpg",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/wtmmontreal2021.appspot.com/o/images%2Fpeople%2Fmarie-philippe.jpg?alt=media&token=447bd5b9-b3ad-4b06-a8c8-c20bd330f19e",
           "socials": [
             {
+              "icon": "website",
+              "link": "https://girlknowstech.com/",
+              "name": "Blog"
+            },
+            {
               "icon": "facebook",
-              "link": "https://www.facebook.com/ostap.andrusiv",
+              "link": "https://www.facebook.com/girlknowstech",
               "name": "Facebook"
             },
             {
-              "icon": "twitter",
-              "link": "https://twitter.com/p1f",
-              "name": "Twitter"
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/mariephilippegill/",
+              "name": "LinkedIn"
             },
             {
-              "icon": "website",
-              "link": "http://andrusiv.com/",
-              "name": "Blog"
+              "icon": "twitter",
+              "link": "https://twitter.com/girlknowstech",
+              "name": "Twitter"
             }
           ],
           "order": 4,
-          "title": "Sponsors"
+          "title": "Social Media Coordinator"
         },
         {
-          "name": "Vasylyna Mytsak",
-          "photo": "/images/people/vasylyna_mytsak.jpg",
-          "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/vasylyna_mytsak.jpg",
+          "name": "Gemma Trigueros",
+          "photo": "/images/people/gemma.jpg",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/wtmmontreal2021.appspot.com/o/images%2Fpeople%2FGemma.jpg?alt=media&token=ba907385-9ada-4f19-8a56-8e09e6c7b21c",
           "socials": [
             {
-              "icon": "facebook",
-              "link": "https://www.facebook.com/vasylyna.mytsak",
-              "name": "Facebook"
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/gemmatrigueros/",
+              "name": "LinkedIn"
             }
           ],
           "order": 5,
-          "title": "Party and happiness"
-        },
-        {
-          "name": "Volodya Karpliuk",
-          "photo": "/images/people/volodya_karpliuk.jpg",
-          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fvolodya_karpliuk.jpg?alt=media&token=aa08d9c9-c42a-435f-8672-c3a004e3aa08",
-          "socials": [
-            {
-              "icon": "facebook",
-              "link": "https://www.facebook.com/volodya.karpluk",
-              "name": "Facebook"
-            },
-            {
-              "icon": "twitter",
-              "link": "https://twitter.com/keyv23",
-              "name": "Twitter"
-            }
-          ],
-          "order": 6,
-          "title": "Speakers"
-        },
-        {
-          "name": "Diana Pinchuk",
-          "photo": "/images/people/diana_pinchuk.jpg",
-          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fdiana_pinchuk.jpg?alt=media&token=189d67d1-004f-4a3c-9e0c-13bc992bbaf7",
-          "socials": [
-            {
-              "icon": "facebook",
-              "link": "https://www.facebook.com/diana.pinchuk.9",
-              "name": "Facebook"
-            }
-          ],
-          "order": 7,
-          "title": "Social and media"
+          "title": "Designer"
         }
       ],
       "title": "Core Team"
