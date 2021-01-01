@@ -1,6 +1,10 @@
 import { customElement, property } from '@polymer/decorators';
 import '@polymer/iron-icon';
 import { html, PolymerElement } from '@polymer/polymer';
+import {AppLocalizeBehavior} from '@polymer/app-localize-behavior/app-localize-behavior.js';
+import {mixinBehaviors} from '@polymer/polymer/lib/legacy/class.js';
+
+
 import '../components/about-block';
 import '../elements/about-organizer-block';
 import '../elements/featured-videos';
@@ -18,9 +22,11 @@ import { toggleVideoDialog } from '../store/ui/actions';
 import { Viewport } from '../store/ui/types';
 import { TempAny } from '../temp-any';
 import { scrollToY } from '../utils/scrolling';
+import { getUserLanguage } from '../utils/functions';
 
-@customElement('home-page')
-export class HomePage extends ReduxMixin(PolymerElement) {
+// export class HomePage extends ReduxMixin(mixinBehaviors([AppLocalizeBehavior], PolymerElement)) {
+
+export class HomePage extends ReduxMixin(mixinBehaviors([AppLocalizeBehavior], PolymerElement)) {
   static get template() {
     return html`
       <style include="shared-styles flex flex-alignment">
@@ -153,7 +159,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           ></plastic-image>
           <div class="info-items">
             <div class="info-item">{$ location.city $}. {$ dates $}</div>
-            <div class="info-item">{$ heroSettings.home.description $}</div>
+            <div class="info-item">{{ localize('homeDescription') }}</div>
           </div>
 
           <div class="action-buttons" layout horizontal center-justified wrap>
@@ -263,10 +269,46 @@ export class HomePage extends ReduxMixin(PolymerElement) {
     `;
   }
 
+  static get observers() {
+    return [
+     '_languageChanged(app.language)',
+    ];
+  }
+
   @property({ type: Boolean })
   private active = false;
   @property({ type: Object })
   private viewport: Viewport;
+  @property({ type: String})
+  language = 'en';
+
+
+  // static get properties() {
+  //   return {
+  //     active: Boolean,
+  //     viewport: {
+  //       type: Object,
+  //       statePath: 'ui.viewport',
+  //     },
+  //     language: {
+  //         type: String,
+  //         value: 'en',
+  //     },
+  //   }
+  // }
+
+  attached() {
+     this.loadResources(this.resolveUrl('/data/resources.json'));
+  }
+
+  _languageChanged(lang) {
+    this.language = lang;
+  }
+
+  ready() {
+    super.ready();
+    this._languageChanged(getUserLanguage());
+  }
 
   stateChanged(state: RootState) {
     this.viewport = state.ui.viewport;
@@ -293,3 +335,5 @@ export class HomePage extends ReduxMixin(PolymerElement) {
     scrollToY(heroHeight, 600, 'easeInOutSine');
   }
 }
+
+customElements.define('home-page', HomePage);
