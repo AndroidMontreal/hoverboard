@@ -60,3 +60,18 @@ export const toggleQueryParam = (currentQueryParams: string | null, key: string,
     : currentKeyValuePairs.concat(keyValue);
   return resultArray.join('&');
 };
+
+export const getUserLanguage = () => {
+  var lang = window.navigator.languages ? window.navigator.languages[0] : null;
+    lang = lang || window.navigator.language || window.navigator['browserLanguage'] || window.navigator['userLanguage'];
+    if (lang.indexOf('-') !== -1) {
+        lang = lang.split('-')[0];
+    }
+    if (lang.indexOf('_') !== -1) {
+        lang = lang.split('_')[0];
+    }
+    if (lang != 'fr' && lang != 'en') {
+        lang = 'en';
+    }
+    return lang;
+}
