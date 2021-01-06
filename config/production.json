@@ -1,15 +1,17 @@
 {
   "basepath": "/",
-  "url": "http://devfest2018.ansdroid-montreal.com/",
-  "analytics": "UA-43643469-9",
+  "url": "wtmmontreal2021.firebaseapp.com",
+  "analytics": "UA-214289712-1",
   "prefix": "/",
   "firebase": {
-    "apiKey": "AIzaSyCKtyig9z7oqvqF2xx9Lkcg1W143gWldc8",
-    "authDomain": "devfest-montreal.firebaseapp.com",
-    "databaseURL": "https://devfest-montreal.firebaseio.com",
-    "projectId": "devfest-montreal",
-    "storageBucket": "devfest-montreal.appspot.com",
-    "messagingSenderId": "516409946568"
-  },
-  "googleMapApiKey": "AIzaSyAR4xIz5HXGalwJQiOFZnYA_rcPIeWzLLY"
+    "apiKey": "AIzaSyC-eJF5YUwlxxMc4kmpw_Wea3IWsXjOHZU",
+    "authDomain": "wtmmontreal2021.firebaseapp.com",
+    "databaseURL": "https://wtmmontreal2021-default-rtdb.firebaseio.com",
+    "projectId": "wtmmontreal2021",
+    "storageBucket": "wtmmontreal2021.appspot.com",
+    "messagingSenderId": "604661551020",
+    "appId": "1:604661551020:web:5b11c09a697524c05f3409",
+    "measurementId": "G-HVGV4B0WPQ"
+    },
+  "googleMapApiKey": "AIzaSyDpz3zOJ4eln1fryCNNEi-6HchygqPZDz0"
 }

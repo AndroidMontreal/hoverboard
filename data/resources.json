@@ -1,9 +1,9 @@
 {
   "title": "Women Techmakers Montreal 2021",
-  "description": "Join the community, learn new things!",
+  "description": "This year’s theme is *courage to create*",
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, wtmmontreal, women techmakers, iwd, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "March 20, 2021",
+  "dates": "20 Mars / March 20, 2021",
   "partnershipProposition": "http://android-montreal.com/wp-content/uploads/2017/10/GDG-Sponsorship-DevFest.pdf",
   "share": "Share",
   "followOur": "Follow our",
@@ -88,7 +88,7 @@
         },
         {
           "name": "Call for Papers",
-          "url": "https://www.papercall.io/montreal-devfest-2018",
+          "url": "https://www.papercall.io/wtmmontreal2021",
           "newTab": true
         },
         {
@@ -169,10 +169,10 @@
     "title": "Coming Soon"
   },
   "featuredVideos": {
-    "title": "DFUA'16 featured videos",
+    "title": "Women Techmakers Montreal 2020",
     "callToAction": {
-      "label": "See all videos",
-      "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+      "label": "Voir toutes les vidéos / see all videos",
+      "link": "https://www.youtube.com/playlist?list=PLHq0FpphrOrC1g3hJoWcEqs9cpLRPWkAj"
     }
   },
   "blog": {
@@ -206,11 +206,11 @@
     }
   },
   "galleryBlock": {
-    "title": "#dfua16 highlights",
-    "description": "This year's festival built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
+    "title": "Édition 2020 / 2020 edition",
+    "description": "Premier événement virtuel / First virtual event",
     "callToAction": {
-      "label": "See all photos",
-      "link": "https://goo.gl/photos/H8s3CtPexCzkLqSt9"
+      "label": "Voir toutes les photos / See all photos",
+      "link": "https://photos.app.goo.gl/U6vsGV8MPvJafKh57"
     }
   },
   "mapBlock": {
@@ -325,6 +325,8 @@
   "addToHomeScreen": {
     "cta": "Add to Home Screen"
   },
+  "callForPaper": "Appel à communication / Call for Papers",
+
   "fr": {
   "about": "À propos",
   "aboutDescription": "GDG Montreal est fier d'organiser l’événement spécial « The Women Techmakers Global Event Series Celebrating International Women's Day » pour la cinquième édition à Montréal. Cette initiative communautaire vise à promouvoir le talent et la passion, à accroître la visibilité de la communauté technologique montréalaise et à honorer et à donner du pouvoir aux femmes dans l’industrie technologique.",

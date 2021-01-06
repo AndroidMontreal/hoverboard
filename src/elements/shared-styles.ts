@@ -8,6 +8,7 @@ documentContainer.innerHTML = `<dom-module id="shared-styles">
   <template>
     <style>
       ${theme}
+      
     </style>
   </template>
 </dom-module>`;

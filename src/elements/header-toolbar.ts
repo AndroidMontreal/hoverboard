@@ -166,11 +166,20 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
           </paper-tab>
           {% endfor %}
 
-          <paper-tab class="signin-tab" on-click="signIn" link hidden$="[[user.signedIn]]"
+          <!--<paper-tab class="signin-tab" on-click="signIn" link hidden$="[[user.signedIn]]"
             >{$ signIn $}</paper-tab
-          >
-
+          >-->
           <a
+            href="{$ cfpLink $}"
+            target="_blank"
+            rel="noopener noreferrer"
+            ga-on="click"
+            ga-event-category="ticket button"
+            ga-event-action="buy_click"
+          >
+            <paper-button class="buy-button" primary>{$ callForPaper $}</paper-button>
+          </a>
+          <!--<a
             href$="[[_getTicketUrl(tickets)]]"
             target="_blank"
             rel="noopener noreferrer"
@@ -179,10 +188,10 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
             ga-event-action="buy_click"
           >
             <paper-button class="buy-button" primary>{$ buyTicket $}</paper-button>
-          </a>
+          </a>-->
         </paper-tabs>
 
-        <paper-menu-button
+      <!--  <paper-menu-button
           id="notificationsMenu"
           class="notifications-menu"
           vertical-align="top"
@@ -221,7 +230,7 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
               </div>
             </div>
           </div>
-        </paper-menu-button>
+        </paper-menu-button> -->
 
         <paper-menu-button
           class="auth-menu"

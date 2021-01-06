@@ -22,28 +22,13 @@
       "route": "home",
       "permalink": "/",
       "label": "Home"
-    },
-    {
-      "route": "speakers",
-      "permalink": "/speakers/",
-      "label": "Speakers"
-    },
-    {
-      "route": "schedule",
-      "permalink": "/schedule/",
-      "label": "Schedule"
-    },
-    {
-      "route": "team",
-      "permalink": "/team/",
-      "label": "Team"
     }
   ],
   "heroSettings": {
     "home": {
-      "description": "Join the commuity, learn new things!",
+      "description": "Le courage de créer / Courage to create",
       "background": {
-        "color": "#455259",
+        "color": "#4285F4",
         "image": "/images/backgrounds/home.jpg"
       },
       "fontColor": "#FFF"
@@ -116,8 +101,8 @@
   "location": {
     "label": "Location",
     "name": "École de technologie supérieure",
-    "city": "Montreal",
-    "short": "Montreal, QC",
+    "city": "Montréal",
+    "short": "Montréal, QC",
     "address": "",
     "pointer": {
       "latitude": 45.5025651,
@@ -221,5 +206,5 @@
     "hoverboard-dev"
   ],
   "eventbriteUrl": "https://www.eventbrite.ca/e/women-techmakers-montreal-iwd-2020-tickets-93708425423",
-  "cfpLink": "https://www.papercall.io/wtmmontreal2020"
+  "cfpLink": "https://www.papercall.io/wtmmontreal2021"
 }

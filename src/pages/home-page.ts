@@ -130,7 +130,13 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           .info-items {
             margin: 48px auto;
             font-size: 28px;
-            line-height: 1.1;
+            line-height: 1.5;
+          }
+
+          .info-item-small {
+            margin-top: 34p;
+            font-size: 22px;
+            line-height: 1.5;
           }
         }
       </style>
@@ -153,11 +159,11 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           ></plastic-image>
           <div class="info-items">
             <div class="info-item">{$ location.city $}. {$ dates $}</div>
-            <div class="info-item">{$ heroSettings.home.description $}</div>
+            <div class="info-item-small">{$ heroSettings.home.description $}</div>
           </div>
 
           <div class="action-buttons" layout horizontal center-justified wrap>
-            <paper-button
+            <!-- <paper-button
               class="watch-video"
               on-click="_playVideo"
               ga-on="click"
@@ -167,8 +173,20 @@ export class HomePage extends ReduxMixin(PolymerElement) {
             >
               <iron-icon icon="hoverboard:movie"></iron-icon>
               {$ viewHighlights $}
-            </paper-button>
-            <paper-button
+            </paper-button> -->
+
+          <a href="{$ cfpLink $}" layout horizontal center-justified wrap target="_blank">
+              <paper-button
+                ga-on="click"
+                ga-event-category="callForPaper"
+                ga-event-action="open"
+                ga-event-label="hero block - call for paper"
+                primary
+                invert>
+                {$ callForPaper $}
+              </paper-button>
+          </a>
+      <!--      <paper-button
               on-click="_scrollToTickets"
               ga-on="click"
               ga-event-category="tickets"
@@ -179,7 +197,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
             >
               <iron-icon icon="hoverboard:ticket"></iron-icon>
               {$ buyTicket $}
-            </paper-button>
+            </paper-button> -->
           </div>
 
           <div class="scroll-down" on-click="_scrollNextBlock">
@@ -250,15 +268,15 @@ export class HomePage extends ReduxMixin(PolymerElement) {
       <fork-me-block></fork-me-block>
       {% endif %}
       <about-block></about-block>
-      <speakers-block></speakers-block>
+      <!-- <speakers-block></speakers-block> -->
       <subscribe-block></subscribe-block>
-      <tickets-block></tickets-block>
+      <!--<tickets-block></tickets-block> -->
       <gallery-block></gallery-block>
-      <about-organizer-block></about-organizer-block>
+      <!--<about-organizer-block></about-organizer-block> -->
       <featured-videos></featured-videos>
-      <latest-posts-block></latest-posts-block>
-      <map-block></map-block>
-      <partners-block></partners-block>
+     <!--  <latest-posts-block></latest-posts-block> -->
+      <!-- <map-block></map-block> -->
+      <!-- <partners-block></partners-block> -->
       <footer-block></footer-block>
     `;
   }
