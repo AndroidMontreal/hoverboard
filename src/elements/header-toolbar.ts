@@ -48,8 +48,8 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
 
         .toolbar-logo {
           display: block;
-          width: 150px;
-          height: 32px;
+          width: 191px;
+          height: 35px;
           background-color: var(--default-primary-color);
           transition: background-color var(--animation);
           -webkit-mask: url('/images/logo-monochrome.svg') no-repeat;
