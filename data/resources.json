@@ -8,7 +8,7 @@
   "share": "Share",
   "followOur": "Follow our",
   "followUs": "Follow us",
-  "emailUs": "Email us",
+  "emailUs": "Écrivez-nous / Email us",
   "partnershipResources": "Partnership Resources",
   "eventResources": "Event Resources",
   "buyTicket": "Buy ticket",
@@ -34,7 +34,7 @@
   },
   "footerRelBlock": [
     {
-      "title": "About",
+      "title": "À propos / About",
       "links": [
         {
           "name": "GDG Montreal",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "title": "Explore Past Women Techmakers Montreal event",
+      "title": "Événement précédent / Past event",
       "links": [
         {
           "name": "Women Techmakers 2017",
@@ -75,31 +75,25 @@
           "name": "Women Techmakers 2019",
           "url": "https://wtmmontreal-2019.firebaseapp.com/",
           "newTab": true
+        },
+        {
+          "name": "Women Techmakers 2020",
+          "url": "https://wtmmontreal-2020.firebaseapp.com/",
+          "newTab": true
         }
       ]
     },
     {
-      "title": "Event Resources",
+      "title": "Ressources / Resources",
       "links": [
         {
-          "name": "Partnership Proposition",
-          "url": "http://android-montreal.com/wp-content/uploads/2017/10/GDG-Sponsorship-DevFest.pdf",
-          "newTab": true
-        },
-        {
-          "name": "Call for Papers",
+          "name": "Appel de communication / Call for Papers",
           "url": "https://www.papercall.io/wtmmontreal2021",
           "newTab": true
-        },
-        {
-          "name": "FAQs",
-          "url": "/faq/",
-          "newTab": false
         }
       ]
     }
   ],
-  "subscribeNote": "No spam, only the latest news and updates!",
   "codeOfConduct": "Code of Conduct",
   "codeOfConductBlock": {
     "organization": "DevFest",
@@ -110,35 +104,35 @@
     ]
   },
   "aboutBlock": {
-    "title": "About",
+    "title": "Information",
     "callToAction": {
       "featuredSessions": {
-        "description": "GDG Android Montreal DevFest brings together the world class experts in Android, IoT and AR technologies to Montreal for 2 days of sessions and workshops.",
-        "label": "Explore featured session",
-        "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+        "description": "GDG Montreal est fier d'organiser l’événement spécial « The Women Techmakers Global Event Series Celebrating International Women's Day » pour la sixième édition à Montréal. Cette initiative communautaire vise à promouvoir le talent et la passion, à accroître la visibilité de la communauté technologique montréalaise et à honorer et à donner du pouvoir aux femmes dans l’industrie technologique.",
+        "label": "Voyez comment c'était en 2020",
+        "link": "https://www.youtube.com/playlist?list=PLHq0FpphrOrC1g3hJoWcEqs9cpLRPWkAj"
       },
       "howItWas": {
-        "description": "Described by many as 'Google I/O of Ukraine', our team creates DevFest to be the best place for experience sharing in a phenomenal atmosphere.",
-        "label": "See how it was in 2016",
-        "youtubeId": "TdpbgRgz6eE"
+        "description": "GDG Montreal is proud to organize the special event The Women Techmakers Global Event Series Celebrating International Women’s Day (WTM IWD), for the sixth edition in Montreal. The main focus of this community-building initiative is to promote talented and passionate women, increase the visibility of the Montreal technology community and empower women in technology.",
+        "label": "See how it was in 2020",
+        "youtubeId": "https://www.youtube.com/playlist?list=PLHq0FpphrOrC1g3hJoWcEqs9cpLRPWkAj"
       }
     },
     "statisticsBlock": {
       "attendees": {
-        "label": "Attendees",
-        "number": "100"
+        "label": "Vues / Views",
+        "number": "1000"
       },
       "days": {
-        "label": "Days",
-        "number": "2"
+        "label": "Heures / Hours",
+        "number": "4"
       },
       "sessions": {
-        "label": "Sessions",
-        "number": "6"
+        "label": "Séances / Sessions",
+        "number": "10"
       },
       "tracks": {
-        "label": "Tracks",
-        "number": "2"
+        "label": "Piste / Tracks",
+        "number": "3"
       }
     }
   },
@@ -218,8 +212,7 @@
   },
   "subscribeBlock": {
     "callToAction": {
-      "description": "Get notified about the important conference updates",
-      "label": "Subscribe"
+      "description": "Soyez informé des mises à jour importantes de la conférence / Get notified about the important conference updates"
     },
     "yourEmail": "Your email",
     "emailAddress": "Email Address",
@@ -326,7 +319,9 @@
     "cta": "Add to Home Screen"
   },
   "callForPaper": "Appel à communication / Call for Papers",
-
+  "news" : "Nouvelles / newsletter",
+  "subscribe": "S’abonner / Subscribe",
+  "subscribeNote": "",
   "fr": {
   "about": "À propos",
   "aboutDescription": "GDG Montreal est fier d'organiser l’événement spécial « The Women Techmakers Global Event Series Celebrating International Women's Day » pour la cinquième édition à Montréal. Cette initiative communautaire vise à promouvoir le talent et la passion, à accroître la visibilité de la communauté technologique montréalaise et à honorer et à donner du pouvoir aux femmes dans l’industrie technologique.",

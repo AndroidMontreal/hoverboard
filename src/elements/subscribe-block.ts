@@ -54,18 +54,19 @@ export class SubscribeBlock extends ReduxMixin(PolymerElement) {
       <div class="container" layout vertical center$="[[viewport.isTabletPlus]]">
         <div class="description">{$ subscribeBlock.callToAction.description $}</div>
         <div class="cta-button">
+        <a href="{$ mailchimpUrl $}" target="_blank" rel="noopener noreferrer" ga-on="click"  ga-event-category="subscribe button" ga-event-action="mailchimp_subscribe_click">
           <paper-button
             class="animated icon-right"
             disabled$="[[subscribed]]"
-            on-click="_subscribe"
             ga-on="click"
             ga-event-category="attendees"
             ga-event-action="subscribe"
             ga-event-label="subscribe block"
           >
-            <span class="cta-label">[[ctaLabel]]</span>
+            <span class="cta-label">{$ subscribe $}</span>
             <iron-icon icon$="hoverboard:[[ctaIcon]]"></iron-icon>
           </paper-button>
+          </a>
         </div>
       </div>
     `;

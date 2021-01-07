@@ -159,7 +159,9 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           ></plastic-image>
           <div class="info-items">
             <div class="info-item">{$ location.city $}. {$ dates $}</div>
-            <div class="info-item-small">{$ heroSettings.home.description $}</div>
+            <div class="info-item">{$ heroSettings.home.theme $}</div>
+            <div class="info-item-small"> {$ heroSettings.home.description $} </div>
+
           </div>
 
           <div class="action-buttons" layout horizontal center-justified wrap>
@@ -271,9 +273,9 @@ export class HomePage extends ReduxMixin(PolymerElement) {
       <!-- <speakers-block></speakers-block> -->
       <subscribe-block></subscribe-block>
       <!--<tickets-block></tickets-block> -->
+      <featured-videos></featured-videos>
       <gallery-block></gallery-block>
       <!--<about-organizer-block></about-organizer-block> -->
-      <featured-videos></featured-videos>
      <!--  <latest-posts-block></latest-posts-block> -->
       <!-- <map-block></map-block> -->
       <!-- <partners-block></partners-block> -->

@@ -6,7 +6,7 @@ GDG Montreal Android DevFest will take place on the 24-25th of November at [Shop
 
 ### Stay Informed
 
-To stay up to date on the latest information on sessions, speakers, and activities, be sure to visit the [DevFest website](http://android-montreal.com/), RSVP on [Meetup]( https://www.meetup.com/GDG-Montreal-Android/events/254850545/) and follow us on [Facebook](https://www.facebook.com/AndroidMontreal) and [Twitter](https://twitter.com/@androidmontreal). You can also follow and join the social conversation about GDG Montreal Android DevFest via official hashtags #Devfest18.
+To stay up to date on the latest information on sessions, speakers, and activities, be sure to visit the [DevFest website](http://android-montreal.com/), RSVP on [Meetup](https://www.meetup.com/GDG-Montreal) and follow us on [Facebook](https://www.facebook.com/AndroidMontreal) and [Twitter](https://twitter.com/@androidmontreal). You can also follow and join the social conversation about GDG Montreal Android DevFest via official hashtags #Devfest18.
 
 ### Content Formats
 

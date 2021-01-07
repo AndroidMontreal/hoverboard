@@ -51,9 +51,18 @@ export class SubscribeFormFooter extends ReduxMixin(PolymerElement) {
           padding-right: 0;
         }
       </style>
+      <div id="form-content" class="form-content">
+            <a href="{$ mailchimpUrl $}" target="_blank" rel="noopener noreferrer" ga-on="click"  ga-event-category="subscribe button" ga-event-action="mailchimp_subscribe_click">
+                <paper-button class="subscribe-button animated icon-right" primary
+                >
+                  <span> {$ subscribe $} </span>
+                  <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
+                </paper-button>
+              </a>
+      </div>
 
       <div class="form-content" layout vertical center>
-        <paper-input
+        <!-- <paper-input
           id="emailInput"
           on-touchend="_focus"
           label="{$ subscribeBlock.yourEmail $}"
@@ -78,7 +87,7 @@ export class SubscribeFormFooter extends ReduxMixin(PolymerElement) {
         >
           [[ctaLabel]]
         </paper-button>
-      </div>
+      </div> -->
     `;
   }
 

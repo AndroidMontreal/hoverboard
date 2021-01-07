@@ -26,7 +26,8 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "Le courage de créer / Courage to create",
+      "description": "virtuel / virtual",
+      "theme": "Le courage de créer / Courage to create",
       "background": {
         "color": "#4285F4",
         "image": "/images/backgrounds/home.jpg"
@@ -135,7 +136,11 @@
     "follow": [
       {
         "name": "meetup",
-        "url": "https://www.meetup.com/GDG-Montreal/events/263839326/"
+        "url": "https://www.meetup.com/GDG-Montreal"
+      },
+      {
+        "name": "gdg",
+        "url": "https://gdg.community.dev/gdg-montreal/"
       },
       {
         "name": "facebook",
@@ -167,7 +172,7 @@
   },
   "mailto": "info@wtmmontreal.com",
   "mailchimp": {
-    "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
+    "url": "https://wtmmontreal.us12.list-manage.com/subscribe/post?u=d1707279f0dde7f68a6f98ab0&amp;id=dbcfa38c0f",
     "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
   },
   "signInProviders": {
@@ -206,5 +211,6 @@
     "hoverboard-dev"
   ],
   "eventbriteUrl": "https://www.eventbrite.ca/e/women-techmakers-montreal-iwd-2020-tickets-93708425423",
-  "cfpLink": "https://www.papercall.io/wtmmontreal2021"
+  "cfpLink": "https://www.papercall.io/wtmmontreal2021",
+  "mailchimpUrl": "http://eepurl.com/dfXg0v"
 }
