@@ -21,6 +21,8 @@ class VideoDialog extends ReduxMixin(mixinBehaviors([PaperDialogBehavior], Polym
         .video-wrapper {
           z-index: 6;
           overflow: hidden;
+          width: 70%;
+          margin: auto;
         }
 
         .go-back-icon {
