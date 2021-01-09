@@ -217,7 +217,7 @@ export class HoverboardApp extends ReduxMixin(PolymerElement) {
               >
                 {$ addToHomeScreen.cta $}
               </a>
-
+<!--
               <a
                 class="bottom-drawer-link"
                 href$="[[_getTicketUrl(tickets)]]"
@@ -234,6 +234,7 @@ export class HoverboardApp extends ReduxMixin(PolymerElement) {
                 <span>{$ buyTicket $}</span>
                 <iron-icon icon="hoverboard:open-in-new"></iron-icon>
               </a>
+              -->
             </div>
           </div>
         </app-drawer>
