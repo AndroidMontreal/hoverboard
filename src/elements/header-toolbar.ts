@@ -48,7 +48,7 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
 
         .toolbar-logo {
           display: block;
-          width: 191px;
+          width: 215px;
           height: 35px;
           background-color: var(--default-primary-color);
           transition: background-color var(--animation);

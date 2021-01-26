@@ -29,7 +29,7 @@ export class FooterNav extends PolymerElement {
         .footer-logo {
           margin: 10px 30px 0 0;
           height: 24px;
-          width: 120px;
+          width: 260px;
           float: left;
         }
 

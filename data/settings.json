@@ -8,7 +8,7 @@
   "startDate": "2017-10-24T09:00:00-05:00",
   "endDate": "2017-10-25T19:00:00-05:00",
   "webapp": {
-    "shortName": "Women Techmakers Montreal 2021",
+    "shortName": "Women Techmakers Montréal & Québec 2021",
     "themeColor": "#4285f4",
     "backgroundColor": "#4285f4"
   },
@@ -102,8 +102,8 @@
   "location": {
     "label": "Location",
     "name": "École de technologie supérieure",
-    "city": "Montréal",
-    "short": "Montréal, QC",
+    "city": "",
+    "short": "",
     "address": "",
     "pointer": {
       "latitude": 45.5025651,

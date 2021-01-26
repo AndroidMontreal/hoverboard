@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="191px" height="33px" viewBox="0 0 191 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>wtm_logo_year</title>
+<svg width="215px" height="33px" viewBox="0 0 215 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo-monochrome</title>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-2">
             <g id="WTM-logo_horiz_stacked_white_rgb" fill="#77BE33" fill-rule="nonzero">
@@ -32,9 +32,10 @@
                     </g>
                 </g>
             </g>
-            <text id="Montreal-2021" font-family="Roboto-Regular, Roboto" font-size="12.4513619" font-weight="normal" fill="#77BE33">
-                <tspan x="140.264591" y="12.0622568">Montreal</tspan>
-                <tspan x="140.264591" y="27.0622568">2021</tspan>
+            <text id="Montréal-&amp;-Québec-20" font-family="Roboto-Regular, Roboto" font-size="13.64" font-weight="normal" fill="#77BE33">
+                <tspan x="140.264591" y="13.0622568">Montréal </tspan>
+                <tspan x="197.75506" y="13.0622568" font-size="12.4513619">&amp;</tspan>
+                <tspan x="140.264591" y="29.0622568" font-size="12.4513619">Québec 2021</tspan>
             </text>
             <line x1="134.038911" y1="31.9439689" x2="134.038911" y2="1.05214008" id="Line" stroke="#77BE33" stroke-width="0.871595331" fill="#D8D8D8" stroke-linecap="square"></line>
         </g>

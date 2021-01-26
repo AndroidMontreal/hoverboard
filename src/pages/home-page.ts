@@ -158,7 +158,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
             alt="{$ title $}"
           ></plastic-image>
           <div class="info-items">
-            <div class="info-item">{$ location.city $}. {$ dates $}</div>
+            <div class="info-item">{$ dates $}</div>
             <div class="info-item">{$ heroSettings.home.theme $}</div>
             <div class="info-item-small"> {$ heroSettings.home.description $} </div>
 

@@ -1,5 +1,5 @@
 {
-  "title": "Women Techmakers Montreal 2021",
+  "title": "Women Techmakers | Montréal & Québec 2021",
   "description": "This year’s theme is *courage to create*",
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, wtmmontreal, women techmakers, iwd, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
@@ -39,6 +39,10 @@
         {
           "name": "GDG Montreal",
           "url": "https://gdgmontreal.com/",
+          "newTab": true
+        }, {
+          "name": "GDG Cloud Québec",
+          "url": "https://gdg.community.dev/gdg-cloud-quebec-city/",
           "newTab": true
         },
         {
@@ -107,12 +111,12 @@
     "title": "Information",
     "callToAction": {
       "featuredSessions": {
-        "description": "GDG Montreal est fier d'organiser l’événement spécial « The Women Techmakers Global Event Series Celebrating International Women's Day » pour la sixième édition à Montréal. Cette initiative communautaire vise à promouvoir le talent et la passion, à accroître la visibilité de la communauté technologique montréalaise et à honorer et à donner du pouvoir aux femmes dans l’industrie technologique.",
+        "description": "GDG Montreal & GDG Cloud Québec est fier d'organiser l’événement spécial « The Women Techmakers Global Event Series Celebrating International Women's Day » pour la sixième édition à Montréal. Cette initiative communautaire vise à promouvoir le talent et la passion, à accroître la visibilité de la communauté technologique montréalaise et à honorer et à donner du pouvoir aux femmes dans l’industrie technologique.",
         "label": "Voyez comment c'était en 2020",
         "link": "https://www.youtube.com/playlist?list=PLHq0FpphrOrC1g3hJoWcEqs9cpLRPWkAj"
       },
       "howItWas": {
-        "description": "GDG Montreal is proud to organize the special event The Women Techmakers Global Event Series Celebrating International Women’s Day (WTM IWD), for the sixth edition in Montreal. The main focus of this community-building initiative is to promote talented and passionate women, increase the visibility of the Montreal technology community and empower women in technology.",
+        "description": "GDG Montreal & GDG Cloud Québec is proud to organize the special event The Women Techmakers Global Event Series Celebrating International Women’s Day (WTM IWD), for the sixth edition in Montreal. The main focus of this community-building initiative is to promote talented and passionate women, increase the visibility of the Montreal technology community and empower women in technology.",
         "label": "See how it was in 2020",
         "youtubeId": "https://www.youtube.com/playlist?list=PLHq0FpphrOrC1g3hJoWcEqs9cpLRPWkAj"
       }
@@ -343,7 +347,7 @@
   "country": "Pays",
   "dates": "21 mars 2020",
   "days": "Journée",
-  "description": "Women Techmakers Montréal",
+  "description": "Women Techmakers Montréal & Québec",
   "emailAddress": "Adresse courriel",
   "emailRequired": "S'il vous plaît, entrez une adresse courriel valide.",
   "emailUs": "Écrivez-nous",
@@ -362,10 +366,10 @@
   "lastName": "Nom de famille",
   "locationAddress": "1100 Notre-Dame Est, Montréal, QC H3C 1K3",
   "locationDescription": "L'École de technologie supérieure (ÉTS) est une école publique d'ingénierie à Montréal, Québec, Canada Fondée en 1974, l'École de technologie supérieure fait partie du réseau de l'Université du Québec et offre des programmes de premier, deuxième et troisième cycles.",
-  "locationCity": "Montréal",
+  "locationCity": "",
   "locationLabel": "Lieu",
   "locationName": "École de technologie supérieure",
-  "locationShort": "Montréal, QC",
+  "locationShort": "",
   "mailchimpUrl": "https://wtmmontreal.us12.list-manage.com/subscribe/post?u=d1707279f0dde7f68a6f98ab0&amp;id=dbcfa38c0f",
   "myScheduleTitle": "Mon horaire",
   "notAvailableYet": "Pas encore disponible",
